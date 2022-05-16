@@ -1,5 +1,5 @@
-#Election-Analysis
-##Project Overview
+# Election-Analysis
+## Project Overview
 A Colorado Board of Elections employee assigned the following tasks to complete the election audit of a recent local congressional election.
 1.	Calculate the total number of votes cast.
 2.	Get a complete list of candidates who received votes.
@@ -9,10 +9,10 @@ A Colorado Board of Elections employee assigned the following tasks to complete 
 6.	Calculate the voter turnout for each county.
 7.	Calculate the percentage of votes from each county out of the total.
 8.	Determine the county with the highest turnout.
-##Resources
+## Resources
 •	Data Source: election_results.csv
 •	Software: Python 3.9.1, Visual Studio Code 1.52.1
-##Summary
+## Summary
 The analysis of the election shows that:
 •	There were 369,711 votes cast in the election.
 •	The candidates were:
@@ -32,6 +32,6 @@ o	Arapahoe produced 6.7% of voters, for a total of 24,801 voters.
 •	The county with the largest voter turnout was:
 o	Denver, which produced 82.8% of voters, for a total of 306,055 voters.
  
-##Election Audit Summary
+## Election Audit Summary
 Since the bulk of this script is simply referencing a data file and returning information within it, there isn’t very much mathematical analysis occurring. As a result, this program can easily be scaled out to accommodate larger audit jobs without many changes to the logic structure of the script. For example, adapting the script to observe state voter turnouts versus county turnouts would be as simple as altering some variables, and referencing a new piece of data. With more data, we could extract more information about voter demographics and candidate effectiveness on the lines of household income, race, gender, marital status, household size, and other potential independent variables. 
 
